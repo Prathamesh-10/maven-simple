@@ -9,6 +9,7 @@ public class App
     public static void main(String[] args)
     {
         System.out.println(new App().greet("world"));
+        System.out.println("Changes made")
     }
 
     public String greet(String name) {
